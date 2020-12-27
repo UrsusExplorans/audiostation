@@ -1,0 +1,4 @@
+FROM audiostation/mopidy:latest
+
+## Install extensions
+RUN pip install -U Mopidy-Iris
