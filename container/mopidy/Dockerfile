@@ -25,6 +25,7 @@ RUN apk add --no-cache \
 
 ## Install extensions
 RUN pip install -U Mopidy-MusicBox-Webclient
+RUN pip install -U Mopidy-Iris
 
 ##  Copy fallback configuration.
 COPY mopidy.conf /etc/default/mopidy.conf
